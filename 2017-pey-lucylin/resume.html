@@ -1,0 +1,174 @@
+
+
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Resume</title>
+      
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body onload="sequentialImg();">
+        <div class= "container">
+        <nav class="navbar navbar-default navbar-inverse" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand navbar-center" href="home.html">Home</a>
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav ">
+                    
+                    <li><a href="#">履歷</a></li>
+                    <li><a href="#">作品</a></li>
+                    <!--<li> <button type="button" class="btn btn-large  btn-default navbar-btn"><span class="glyphicon glyphicon-user"></span>登入</button>-->
+                    </li>
+
+                </ul>
+               <!-- <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>-->
+            </div> 
+        </nav>
+        </div>
+        
+        <div class="container">  
+        <div class="row">            
+            <div class="col-xs-12  col-sm-8 col-md-8 col-lg-10  ">                
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="resume.html">履歷</a>
+                    </li>
+                    <li class="active">Current</li>
+                </ol>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+                    <div id="my_div"  align="center" valign="center" ></div>
+                    <script type="text/javascript">
+                        var jsImg = new Array("totoro1.png","totoro2.png","totoro3.png");
+                        var jsImg_len = jsImg.length;  
+                        var i=0;                       
+                        setInterval("sequentialImg()",2000);
+                        function sequentialImg(){  
+                            document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[i]+"' width=350 height=350 >";        
+                            i++;
+                            if(i>=jsImg_len)  i=0;
+                        }  
+</script> 
+<hr>
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 " >
+                            <h3>姓名</h3>
+                        </div>
+                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 " >
+                            <h4>林沛萱</h4> 
+                        </div>
+                    </div><hr>
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 " >
+                            <h3>生日</h3>
+                        </div>
+                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 " >
+                            <h4>83/xx/xx</h4> 
+                        </div>
+                    </div><hr>
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 " >
+                            <h3>興趣</h3>
+                        </div>
+                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 " >
+                            <h4>打排球</h4> 
+                        </div>
+                    </div><hr>
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 " >
+                            <h3>地址</h3>
+                        </div>
+                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 " >
+                            <h4>abcdefghijklmnopqrstuvwxyz</h4> 
+                        </div>
+                    </div><hr>
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 " >
+                            <h3>專長</h3>
+                        </div>
+                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 " >
+                            <h4>吃飯睡覺打咚咚</h4> 
+                        </div>
+                    </div><hr>
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 " >
+                            <h3>簡介</h3>
+                        </div>
+                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 " >
+                            <h4>像地西也二……仍師馬不我致包推然下灣什，習任在正交陸起天人該消學其能第最來？<br>
+                                蘭個星環主媽務樂資現一最的到以正立備之加上信前落，統母卻住生，出下媽政開生於我常……容麼什使記集位風局深媽清水不表而我不太輕。<br>
+                                用我活間男消；八的或那：預就爸這者況何令關族超不戲這過空內、片像法，定關數：劇你兒的車？<br>
+                                原相林口；活藝法：今形在路告人。氣的讓明金許學系日舞！<br>
+                                演晚他改一的確後面題管到多期春到導發節觀思重你實係來創然造大故走院，受利身八張價又。衣畫變傳多預樂時辦。其用人生想遠，感登藝：在來球美。受銀春腦我心完出很歡無出會健著。</h4> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12  col-sm-4 col-md-4 col-lg-2 ">
+                <div class="panel panel-danger">
+                      <div class="panel-heading">
+                            <h3 class="panel-title">聯絡方式</h3>
+                      </div>
+                      <div class="panel-body">
+                            yoyoyo即可召喚
+                      </div>
+                </div>
+                
+            </div>  
+       </div>
+        </div>  
+        <div class="container">
+            <footer class="panel panel-default panel-danger text-center">
+                <div class="panel-body">
+                    <p>*這是我的履歷*</p>
+                    <p>*錄取我ㄅ*</p>
+                </div>
+            </footer>
+       </div>
+
+        
+
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
